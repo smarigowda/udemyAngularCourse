@@ -1,5 +1,6 @@
 p {
   font-size: 4rem;
-  padding: 2rem;
-  color: orange;
+  padding: 20px;
+  background-color: mistyrose;
+  border: 2px solid red;
 }

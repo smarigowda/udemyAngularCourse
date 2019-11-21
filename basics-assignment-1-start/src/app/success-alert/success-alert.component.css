@@ -1,6 +1,7 @@
 p {
     font-size: 4rem;
-    padding: 2rem;
-    color: green;
+    padding: 20px;
+    background-color: lightseagreen;
+    border: 2px solid green;
   }
   
