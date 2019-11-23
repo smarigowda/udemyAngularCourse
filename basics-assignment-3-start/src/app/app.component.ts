@@ -14,7 +14,7 @@ export class AppComponent {
     this.displaySecretPassword = this.displaySecretPassword ? false : true;
     console.log('display = ' + this.displaySecretPassword);
     this.count++;
-    this.clickCounts.push(this.count);
+    this.clickCounts.push(new Date());
     console.log(this.clickCounts);
   }
 }
