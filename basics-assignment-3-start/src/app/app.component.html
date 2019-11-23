@@ -25,13 +25,13 @@
   </div>
 </div>
 
-<button (click)="onClickHandler()">Display Details</button>
+<button (click)="onClickHandler()" class="btn btn-primary">Display Details</button>
 <p [hidden]="displaySecretPassword">Secret Password = tuna</p>
 <h1>Click Counts</h1>
 
 <h2
-  *ngFor="let count of clickCounts"
-  [ngClass]="{ color: count >= 5 }"
+  *ngFor="let count of clickCounts; index as i"
+  [ngClass]="{ 'white-text': i >= 5 }"
   [ngStyle]="{ backgroundColor: 'blue' }"
 >
   {{ count }}
