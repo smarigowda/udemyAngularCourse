@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  clickCount = [];
+  clickCounts = [];
   count = 0;
   displaySecretPassword = true;
   onClickHandler() {
@@ -14,7 +14,7 @@ export class AppComponent {
     this.displaySecretPassword = this.displaySecretPassword ? false : true;
     console.log('display = ' + this.displaySecretPassword);
     this.count++;
-    this.clickCount.push(this.count);
-    console.log(this.clickCount);
+    this.clickCounts.push(this.count);
+    console.log(this.clickCounts);
   }
 }
